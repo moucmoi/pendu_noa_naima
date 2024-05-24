@@ -10,9 +10,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
-import javafx.scene.control.Tooltip;
-import javafx.scene.control.TitledPane;
-import javafx.scene.layout.Region;
 import javafx.scene.text.TextAlignment;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonBar.ButtonData ;
@@ -153,7 +150,7 @@ public class Pendu extends Application {
     }
 
     public void modeAccueil(){
-        // A implementer
+        
     }
     
     public void modeJeu(){
