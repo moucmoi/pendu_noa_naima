@@ -38,7 +38,7 @@ public class ControleurNiveau implements EventHandler<ActionEvent> {
         else if(nomDuRadiobouton=="Difficile"){
             modelePendu.setNiveau(2);
         }
-        else(nomDuRadiobouton=="Expert"){
+        else{
             modelePendu.setNiveau(3);
         }
         System.out.println(nomDuRadiobouton);
