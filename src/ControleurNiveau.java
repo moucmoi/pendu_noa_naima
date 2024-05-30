@@ -17,7 +17,7 @@ public class ControleurNiveau implements EventHandler<ActionEvent> {
      * @param modelePendu modèle du jeu
      */
     public ControleurNiveau(MotMystere modelePendu) {
-        this.modelePendu=modelePendu
+        this.modelePendu=modelePendu;
     }
 
     /**
