@@ -26,7 +26,7 @@ public class Clavier extends TilePane{
      * @param tailleLigne nombre de touches par ligne
      */
     public Clavier(String touches, EventHandler<ActionEvent> actionTouches) {
-        // A implémenter
+        this.clavier=touches;
     }
 
     /**
