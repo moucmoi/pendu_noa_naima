@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Arrays;
 import java.io.File;
 import java.util.ArrayList;
+import javafx.scene.layout.BorderPane;
 
 
 /**
@@ -104,8 +105,20 @@ public class Pendu extends Application {
      * @return le panel contenant le titre du jeu
      */
     private Pane titre(){
-        // A implementer          
+        BorderPane scene=new BorderPane();
+        VBox droite=new Vbox();
+        Button b1=new Button(new ImageView());
+        Button b2=new Button(new ImageView());
+        Button b3=new Button(new ImageView());
+        droite.getChildren().add(b1);
+        droite.getChildren().add(b2);
+        droite.getChildren().add(b3);
+        Label titre=new Label("Jeu du Pendu");
+        scene.setLeft(titre);
+        scene.setRight(droite);
+
         Pane banniere = new Pane();
+        banniere.getChildren().add(scene);
         return banniere;
     }
 
